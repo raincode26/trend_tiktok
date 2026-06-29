@@ -27,7 +27,7 @@ import pygame
 # Contoh IP Webcam Android : "http://192.168.1.5:8080/video"
 # Contoh DroidCam Android  : "http://192.168.1.5:4747/video"
 # Untuk webcam lokal (Windows/Linux): set ke 0
-CAMERA_SOURCE: str | int = "http://10.13.76.78:8080/video"
+CAMERA_SOURCE: str | int = 0
 
 FRAME_WIDTH: int = 1280
 FRAME_HEIGHT: int = 720
